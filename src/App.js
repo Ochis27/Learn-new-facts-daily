@@ -224,7 +224,7 @@ function NewFactForm({ setFacts, setShowForm }) {
         ))}
       </select>
       <button className='btn btn-large' disabled={isUploading}>
-        Post
+        Post your fact
       </button>
     </form>
   );
